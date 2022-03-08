@@ -6,3 +6,11 @@
 [INF]Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - - - 200 - text/html;charset=utf-8 331.2846ms
 [INF]Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - -
 [INF]Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.8626ms
+[INF]Application is starting
+[INF]Application started. Press Ctrl+C to shut down.
+[INF]Hosting environment: Development
+[INF]Content root path: D:\Udemy\Web api course\WebApiLearning\HotelListing
+[INF]Request starting HTTP/2 GET https://localhost:44349/swagger/index.html - -
+[INF]Request finished HTTP/2 GET https://localhost:44349/swagger/index.html - - - 200 - text/html;charset=utf-8 392.0322ms
+[INF]Request starting HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - -
+[INF]Request finished HTTP/2 GET https://localhost:44349/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.0760ms

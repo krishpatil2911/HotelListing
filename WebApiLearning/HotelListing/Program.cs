@@ -13,9 +13,10 @@ namespace HotelListing
 {
     public class Program
     {
+        private static readonly string LoggerFilePath = "D:\\Udemy\\Web api course\\WebApiLearning";
         public static void Main(string[] args)
         {
-            Log.Logger = new LoggerConfiguration().WriteTo.File(path: "D:\\Udemy\\Web api course\\WebApiLearning",
+            Log.Logger = new LoggerConfiguration().WriteTo.File(path:LoggerFilePath,
                 outputTemplate:"{TimeStamp:yyyy-MM-dd HH:mm:ss.fff zzz}[{Level:u3}]{Message:lj}{NewLine}{Exception}",
                 rollingInterval:RollingInterval.Day,
                 restrictedToMinimumLevel:LogEventLevel.Information).CreateLogger();
